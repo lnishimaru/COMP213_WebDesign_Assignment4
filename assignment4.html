@@ -1,0 +1,254 @@
+﻿<!DOCTYPE html>
+<!-- Created by Lilian Nishimaru de Souza - Created on: Mar 12, 2019 -->
+<html lang="en">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Assignment4</title>
+<meta content="COMP213, Assignment4, HTML form" name="keywords">
+<meta content="Assignment 4 is to create a evaluation form" name="description">
+<link href="Assignment4Styles.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+.auto-style4 {
+	border-width: 0px;
+}
+</style>
+</head>
+
+<body>
+<div id="allPage">
+<header>
+	<a href="https://www.centennialcollege.ca/">
+	<img alt="Centennial Logo" longdesc="Centennial Green Logo" src="images/greenlogo2.JPG" class="auto-style4"></a></header>
+
+    <p id="instructions">Please read each statement carefully and consider each one individually. 
+	Give one answer for each question.</p>
+<form action="mailto:lnishima@my.centennialcollege.ca" method="post">
+    <fieldset id="formId">
+    <legend>Identification</legend>
+	<table style="width: 100%">
+		<tr>
+			<td class="auto-style2">Course Name/Code:</td>
+			<td>
+				<select name="lstCourses" tabindex="1" required="required">
+				<option value="COMP100">COMP100 Programming I</option>
+				<option value="COMP125">COMP125 Client Side Development</option>
+				<option value="COMP213">COMP213 Web Interface Design</option>
+				<option value="COMP225">COMP225 Systems I</option>
+				<option value="COMP229">COMP229 Server Side Development</option>
+				</select></td>
+		</tr>
+		<tr>
+			<td class="auto-style2">Semester:</td>
+			<td>
+				<input name="optSemester" tabindex="3" type="radio" value="Fall" required="required">Fall
+				<input name="optSemester" tabindex="5" type="radio" value="Winter">Winter
+				<input name="optSemester" tabindex="7" type="radio" value="Spring">Spring/Summer</td>
+		</tr>
+		<tr>
+			<td class="auto-style2">Instructor:</td>
+			<td>
+				<input name="txtInstructor" size="50" tabindex="9" type="text" required="required"></td>
+		</tr>
+	</table>
+	</fieldset>
+	<fieldset id="formInstructor">
+	<legend>Instructor</legend>
+	<table style="width: 100%">
+		<tr>
+			<td colspan="4">How would you rate the instructor's</td>
+		</tr>
+	</table>
+	<fieldset id="oddfield">
+	<table style="width: 100%">
+		<tr>
+			<td colspan="4">1. <strong>knowledge</strong> of the subject?</td>
+		</tr>
+		<tr>
+			<td style="height: 28px"><input name="optKn" tabindex="11" type="radio" value="E" required="required">Excelent</td>
+			<td style="height: 28px"><input name="optKn" tabindex="13" type="radio" value="G">Good</td>
+			<td style="height: 28px"><input name="optKn" tabindex="15" type="radio" value="F">Fair</td>
+			<td style="height: 28px"><input name="optKn" tabindex="17" type="radio" value="N">Not Satisfactory</td>
+		</tr>
+		</table>
+		</fieldset>
+		<fieldset id="evenfield">
+     	<table style="width: 100%">
+
+		<tr>
+			<td colspan="4">2. <strong>helpfulness</strong>?</td>
+		</tr>
+		<tr>
+			<td><input name="optHelp" tabindex="19" type="radio" value="E" required="required">Excelent</td>
+			<td><input name="optHelp" tabindex="21" type="radio" value="G">Good</td>
+			<td><input name="optHelp" tabindex="23" type="radio" value="F">Fair</td>
+			<td><input name="optHelp" tabindex="25" type="radio" value="N">Not Satisfactory</td>
+		</tr>
+		</table>
+		</fieldset>
+		<fieldset id="oddfield">
+		<table style="width: 100%">
+   		<tr>
+			<td colspan="4">3. <strong>courtesy and respect</strong> for all students?</td>
+		</tr>
+		<tr>
+			<td><input name="optCourt" tabindex="27" type="radio" value="E" required="required">Excelent</td>
+			<td><input name="optCourt" tabindex="29" type="radio" value="G">Good</td>
+			<td><input name="optCourt" tabindex="31" type="radio" value="F">Fair</td>
+			<td><input name="optCourt" tabindex="33" type="radio" value="N">Not	Satisfactory</td>
+		</tr>
+		</table>
+		</fieldset>
+		<fieldset id="evenfield">
+	  	<table style="width: 100%">
+		<tr>
+			<td colspan="4">4. <strong>communication</strong> skills?</td>
+		</tr>
+		<tr>
+			<td><input name="optComm" tabindex="35" type="radio" value="E" required="required">Excelent</td>
+			<td><input name="optComm" tabindex="37" type="radio" value="G">Good</td>
+			<td><input name="optComm" tabindex="39" type="radio" value="F">Fair</td>
+			<td><input name="optComm" tabindex="41" type="radio" value="N">Not Satisfactory</td>
+		</tr>
+		</table>
+		</fieldset>
+		<fieldset id="oddfield">
+	  	<table style="width: 100%">
+		<tr>
+			<td colspan="4">5. overall <strong>performance</strong>?</td>
+		</tr>
+		<tr>
+			<td><input name="optAll" tabindex="43" type="radio" value="E" required="required">Excelent</td>
+			<td><input name="optAll" tabindex="45" type="radio" value="G">Good</td>
+			<td><input name="optAll" tabindex="47" type="radio" value="F">Fair</td>
+			<td><input name="optAll" tabindex="49" type="radio" value="N">Not Satisfactory</td>
+		</tr>
+    	</table>
+	    </fieldset>
+	</fieldset>
+	<fieldset id="formCourse">
+	<legend>Course</legend>
+	<fieldset id="evenfield">
+	<table style="width: 100%">
+		<tr>
+			<td colspan="4">6. How would you rate the <strong>course materials</strong>?</td>
+		</tr>
+		<tr>
+			<td><input name="optCourse" tabindex="11" type="radio" value="E" required="required">Excelent
+			<td><input name="optCourse" tabindex="13" type="radio" value="G">Good</td>
+			<td><input name="optCourse" tabindex="15" type="radio" value="F">Fair</td>
+			<td><input name="optCourse" tabindex="17" type="radio" value="N">Not Satisfactory</td>
+		</tr>
+		</table>
+		</fieldset>
+		<fieldset id="oddfield">
+     	<table style="width: 100%">
+
+		<tr>
+			<td colspan="4">7. How much did this course meet your <strong>expectations</strong>?</td>
+		</tr>
+		<tr>
+			<td><input name="optExpect" tabindex="19" type="radio" value="E" required="required">Excelent</td>
+			<td><input name="optExpect" tabindex="21" type="radio" value="G">Good</td>
+			<td><input name="optExpect" tabindex="23" type="radio" value="F">Fair</td>
+			<td><input name="optExpect" tabindex="25" type="radio" value="N">Not Satisfactory</td>
+		</tr>
+		</table>
+		</fieldset>
+		<fieldset id="evenfield">
+		<table style="width: 100%">
+   		<tr>
+			<td colspan="4">8. How would you rate this course <strong>(overall)</strong>?</td>
+		</tr>
+		<tr>
+			<td><input name="optOverall" tabindex="27" type="radio" value="E" required="required">Excelent</td>
+			<td><input name="optOverall" tabindex="29" type="radio" value="G">Good</td>
+			<td><input name="optOverall" tabindex="31" type="radio" value="F">Fair</td>
+			<td><input name="optOverall" tabindex="33" type="radio" value="N">Not Satisfactory</td>
+		</tr>
+		</table>
+		</fieldset>
+	</fieldset>
+	
+	<fieldset id="formGeneral">
+	<legend>General Information</legend>
+	<fieldset id="oddfield">
+	<table style="width: 100%">
+		<tr>
+			<td colspan="4">9. Was the <strong>course outline</strong> reviewd/explained at the begining of the course?</td>
+		<tr>
+			<td><input name="optOutline" tabindex="19" type="radio" value="Y" required="required">Yes</td>
+			<td><input name="optOutline" tabindex="21" type="radio" value="N">No</td>
+			<td><input name="optOutline" tabindex="23" type="radio" value="U">Not Sure</td>
+		</tr>
+		</table>
+		</fieldset>
+		<fieldset id="evenfield">
+     	<table style="width: 100%">
+
+		<tr>
+			<td colspan="4">10. Would you <strong>recommend</strong> this course to a friend with the same interests?</td>
+		</tr>
+		<tr>
+			<td><input name="optRecommend" tabindex="19" type="radio" value="Y" required="required">Yes</td>
+			<td><input name="optRecommend" tabindex="21" type="radio" value="N">No</td>
+			<td><input name="optRecommend" tabindex="25" type="radio" value="U">Not Sure</td>			
+		</tr>
+		</table>
+		</fieldset>
+		</fieldset>
+	<fieldset id="formOther">
+	<legend>Other comments</legend>
+	<fieldset id="oddfield">
+	<table style="width: 100%">
+		<tr>
+			<td>11. What was the <strong>best thing</strong> about this course?</td>
+			<td><input name="txtBest" size="120" style="width: 598px; height: 40px" type="text"></td>
+		</table>
+		</fieldset>
+		<fieldset id="evenfield">
+     	<table style="width: 100%">
+
+		<tr>
+			<td style="width: 353px">12. How could we <strong>improve</strong> this course?</td>
+			<td>
+				<input name="txtImprove" style="width: 598px; height: 40px" type="text">
+			</td>
+		</tr>
+		</table>
+		</fieldset>
+		<fieldset id="oddfield">
+     	<table>
+
+		<tr>
+			<td style="width: 1017px">13. Other comments</td>
+			<td style="width: 6px">
+				<input name="txtOther" style="width: 598px; height: 40px" type="text"></td>
+		</tr>
+		</table>
+		</fieldset>
+
+		</fieldset>
+
+
+	<br>
+	<table style="width: 100%; height: 27px;">
+		<tr>
+			<td class="auto-style2" style="width: 480px">
+				<input name="Submit1" type="submit" value="submit" style="width: 85px; height: 29px;">
+			</td>
+			<td class="auto-style3">
+				<input name="Reset1" type="reset" value="reset" style="width: 85px; height: 29px;">
+			</td>
+		</tr>
+	</table>
+	</form>
+	<footer>
+    	<p><a href="../index.html">back to index </a></p>
+	<p id="copyright">&copy;&nbsp;Copyright Lilian Nishimaru de Souza - COMP213 - Winter 2019</p>
+</footer>
+</div>
+</body>
+
+</html>

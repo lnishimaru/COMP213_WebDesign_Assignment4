@@ -1,0 +1,81 @@
+﻿header {
+	background-color: #C3D022;
+	border-radius: 10px;
+	margin: 2px;
+	padding: 5px;
+	box-shadow: 2px 2px 2px 2px #C0C0C0;
+}
+#copyright {
+	font-size: x-small;
+}
+footer {
+	background-color: #35363A;
+	border-radius: 10px;
+	padding: 5px;
+	margin: 5px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	box-shadow: 5px 5px 5px 5px #C0C0C0;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #F2F5C7;
+}
+#allPage {
+	margin-right: auto;
+	padding: 8px;
+	margin-left: auto;
+	box-shadow: 5px 5px 5px 5px grey;
+	border-radius: 0px;
+	border: thin solid #464648;
+	width: 980px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #303030;
+}
+footer a {
+	color: white;
+	text-decoration: none;
+}
+footer a:hover {
+	background-color: #CCFFCC;
+	color: #35363A;
+}
+#dark {
+	background-color: #C0C0C0;
+}
+#oddfield {
+	background-color: #C0C0C0;
+}
+#evenfield {
+	background-color: #FFFFFF;
+}
+#formId {
+	padding-top: 5px;
+	border-style: solid;
+}
+#formInstructor {
+	border-style: solid;
+	padding: 5px;
+}
+#formCourse {
+	padding: 5px;
+	border-style: solid;
+}
+#formGeneral {
+	border-style: solid;
+	padding: 5px;
+}
+#formOther {
+	border-style: solid;
+	padding: 5px;
+}
+.auto-style2 {
+	text-align: right;
+}
+.auto-style3 {
+	text-align: left;
+}
+#instructions {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+
